@@ -39,7 +39,8 @@
                 <input type="file" name="image" require="">
             </div>
             <div>
-                <input style="color: black; background: white" type="submit" value="Update">
+
+                <button type="submit" class="btn btn-primary">Update</button>
             </div>
         </form>
 

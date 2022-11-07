@@ -41,7 +41,8 @@
 
                 <div>
                     <label>Old Image</label>
-                    <img style="width: 70%; height: 200px;" width="70%" height="200px" src="/foodimage/{{ $data->image }}">
+                    <img style="width: 70%; height: 200px;" width="70%" height="200px"
+                        src="/foodimage/{{ $data->image }}">
                 </div>
 
                 <div>
@@ -50,7 +51,8 @@
                 </div>
 
                 <div>
-                    <input style="color: black; background: white" type="submit" value="Save">
+                    <button type="submit" class="btn btn-primary">Save</button>
+
                 </div>
 
             </form>
